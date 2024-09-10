@@ -1,17 +1,13 @@
 #ifndef PREFIX
-#define PREFIX "DUMMY"
+#define PREFIX "geographiclib"
 #endif
 
 #ifndef NAME
-#define NAME "DUMMY"
-#endif
-
-#ifndef PREFIX
-#define PREFIX "DUMMY"
+#define NAME "egm96-5"
 #endif
 
 #ifndef GEOIDDIR
-#define GEOIDDIR "DUMMY"
+#define GEOIDDIR "C:\Users\YourUsername\Downloads\GeographicLib"
 #endif
 
 #define Project "GeographicLib"
@@ -49,3 +45,4 @@ DiskSpanning=no
 
 [Files]
 Source: {#GEOIDDIR}\geoids\{#prefix}.*; DestDir: {app}\geoids; Flags: ignoreversion
+
