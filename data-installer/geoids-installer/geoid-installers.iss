@@ -1,17 +1,13 @@
 #ifndef PREFIX
-#define PREFIX "DUMMY"
+#define PREFIX "geographiclib"
 #endif
 
 #ifndef NAME
-#define NAME "DUMMY"
-#endif
-
-#ifndef PREFIX
-#define PREFIX "DUMMY"
+#define NAME "egm96-5"
 #endif
 
 #ifndef GEOIDDIR
-#define GEOIDDIR "DUMMY"
+#define GEOIDDIR "C:\Users\sania123\Downloads"  ; Adjust this path if necessary
 #endif
 
 #define Project "GeographicLib"
@@ -48,4 +44,4 @@ UninstallDisplayName={#Project} geoid {#NAME}
 DiskSpanning=no
 
 [Files]
-Source: {#GEOIDDIR}\geoids\{#prefix}.*; DestDir: {app}\geoids; Flags: ignoreversion
+Source: {#GEOIDDIR}\egm96-5.zip; DestDir: {app}\geoids; Flags: ignoreversion
